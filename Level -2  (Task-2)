@@ -1,0 +1,96 @@
+HTML CODE :
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Tribute Page</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Sushant Singh Rajput</h1>
+        <p>Our country lost a legendary Indian actor,and great human being on 14 June by sucide at his home in Bandra.</p>
+        <div id="img_div">
+            <img src="Sushant Singh Rajput.jpg" alt="" id="image">
+            <figcaption>Sushant Singh Rajput was an Indian actor known for his work in Hindi cinema.He starred in a number of commercially successful Hindi films such as M.S. Dhoni: The Untold Story (2016), Kedarnath (2018) and Chhichhore (2019)</figcaption>
+        </div>
+        <div id="tribute-info">
+            <h3>Here's a time line of Sushant Singh Rajput</h3>
+            <ul>
+                <li>
+                    Sushant Singh Rajput was born in 21 January 1986 at Patna in the state of Bihar. 
+                </li>
+                <li>He was born in Patna in the state of Bihar to Krishna Kumar Singh and Usha Singh.His father is a retired technical officer and worked at Bihar State Handloom Corporation in Patna.</li>
+                <li>He was the youngest of five siblings and had the nickname Gulshan.One of his four sisters Mitu Singh was a state-level cricket player.He attended the St. Karen's High School in Patna.</li>
+                <li>His family moved to Delhi following his mother's death in 2002 where Rajput completed his schooling for intermediate studies in Kulachi Hansraj Model School.</li>
+                <li>Rajput was reportedly an avid reader who was deeply interested in astrophysics and won the National Olympiad in Physics.[ He secured admission in the Delhi College of Engineering (later renamed Delhi Technological University) to pursue a Bachelor of Engineering degree in mechanical engineering.</li>
+                <li>According to Rajput, he did not have any interest in engineering but his family gave him no option which left him dissatisfied. He instead wanted to become an astronaut and later an air force pilot but was also interested in Bollywood, being a fan of Shah Rukh Khan</li>
+                <li>In 2011, Rajput was spotted by Mukesh Chhabra, the casting director of Kai Po Che!, who invited him for an audition.He was in the process of enrolling for a course in filmmaking at Stanford University but decided to accept the offer.He was subsequently cast in the role of Ishaan Bhatt, a district-level cricketer who was a victim of politics in the selection fraternity and one of the three leads, along with Rajkummar Rao and Amit Sadh.The film was directed by Abhishek Kapoor and based on the Chetan Bhagat novel called The 3 Mistakes of My Life, which dealt with the life of three friends affected by the 2001 Gujarat earthquake and the 2002 Gujarat riots. It was released in 2013 and became a commercial and critical success.Rajput received a nomination for the Filmfare Awards in the category of best debut actor for his performance in the film</li>
+                <li>Before the release of his debut film Kai Po Che!, Rajput was signed in by Raj Kumar Hirani for a role in the Aamir Khan starring satirical drama called PK.In the film, he was cast as the boyfriend to Anushka Sharma's character of a journalist.He also entered into a deal with Yash Raj Films beginning with the starring role in the film Shuddh Desi Romance</li>
+                <li>In 2011, a biopic on the life of the Indian cricket team captain Mahendra Singh Dhoni was conceived by Dhoni's manager, Arun Pandey.The project was initially faced with various difficulties including objections from the Board of Control for Cricket in India (BCCI) and Dhoni's demand for a large royalty.On 25 September 2014, Sushant Singh Rajput was announced as the actor who would play the role of Dhoni in the biopic which was titled M.S. Dhoni: The Untold Story and directed by Neeraj Pandey.The film was centered around the life of the cricketer beginning with his childhood in the city of Ranchi and leading up to the 2011 Cricket World Cup victory for India under his captaincy.Incidentally, Rajput wasn't adept at cricket and had to train regularly in the game for 13 months as well as capture the playing style of Dhoni for his portrayal in the film,he was coached by Kiran More who reportedly trained him in the regimen of a professional sportsperson rather than as an actor.The film was produced by Arun Pandey with Fox Star Studios and released on 2 October 2016.It became the 5th highest grossing Bollywood film of that year.Rajput received critical acclaim for his performance and nominations to a number of awards,including the Filmfare Awards, the International Indian Film Academy Awards and the winning nomination at the Indian Film Festival of Melbourne.He also made a cameo appearance in the comedy film Welcome to New York,which was released on 23 February 2018 and where the lead characters met Rajput but confused him for Mahendra Singh Dhoni</li>
+                <li>On 2 May 2018, Rajput was inducted as a partner in a company named Innsaei Ventures, which was founded on 26 April 2018; following which he was appointed as one of its three directors, the others being Varun Mathur and Saurabh Mishra</li>
+                <li>Rajput's personal relationships have been the subject of widespread media attention.In 2011, Rajput publicly proposed to his Pavitra Rishta co-star Ankita Lokhande during a national broadcast of the dance competition show Jhalak Dikhhla Jaa;both of them had participated in the show as competing contestants.The couple began dating after their first meeting on the set of Pavitra Rishta, where they had been cast as husband and wife to each other.In 2012, they began living together,and reports of an imminent marriage between the two occasionally cropped up in the media.</li>
+                <li>He won Indian Television Academy Award,BIG Star Entertainment Award,Gold Award,FICCI Frames Excellence Honour for Pavitra Rishta film.</li>
+            </ul>  
+        </div>
+        <h5>On 14 June 2020, Rajput, aged 34, was found dead, hanging from the ceiling fan in his home in Bandra, Mumbai.He had reportedly shown signs of clinical depression and was suffering from bipolar disorder.The Mumbai Police commenced an investigation, stating that the death was being treated as a suicide.The postmortem report stated that the cause of death was "asphyxia due to hanging,"and called it a "clear case of suicide".On 15 October 2020, the CBI said it "continues to investigate the death of Rajput. There are certain speculative reports in the media that the CBI has reached a conclusion. It may be reiterated that these reports are speculative and erroneous."</h5>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+CSS CODE :
+
+
+
+
+#main{
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding:15px;
+    background: #dddddd;
+    border-radius: 5px;
+}
+#title{
+    text-align: center;
+}
+#main > p{
+    text-align: center;
+}
+#img_div{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    align-items: center;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+#tribute-info{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#tribute-info > h3{
+    text-align: center;
+}
+#tribute-info > ul li{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+h5{
+text-align: center;
+}
